@@ -1,0 +1,470 @@
+hr{
+    position: relative;
+    top: 20px;
+    border: none;   
+    height: 12px;
+    background: black;
+}
+.wait{
+    text-align: center;
+    margin-top: 5rem;
+}
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .Navbar {
+    margin-bottom: 20px;
+  }
+  
+  .Container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+  }
+  .home-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #343a40;
+}
+
+.note {
+    font-size: 1.1rem;
+    color: #6c757d;
+    text-align: center;
+}
+
+.step {
+    margin: 20px 0;
+}
+
+.step-title {
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+.step-note {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.divider {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #dee2e6;
+}
+
+
+/* Import any additional fonts or icons as needed */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-services {
+    background-color: #e6edf7;
+    color: #202020;
+    padding-top: 115px;
+    padding-bottom: 120px;
+}
+
+.header-section {
+    margin-bottom: 34px;
+}
+
+.header-section .title {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 14px;
+    margin-bottom: 25px;
+}
+
+.header-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+.header-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(30px);
+    width: 10px;
+    height: 3px;
+    background-color: #504f93;
+    border-radius: 3px;
+}
+
+.header-section .description {
+    font-size: 14px;
+    color: #282828;
+}
+
+.single-service {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 30px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.single-service .content {
+    position: relative;
+    z-index: 20;
+}
+
+.single-service .circle-before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%);
+    width: 5px;
+    height: 5px;
+    background-color: #cfe0f7;
+    /* border: 6px solid black; */
+    border-radius: 50%;
+    transition: all .6s;
+}
+
+.single-service:hover .circle-before {
+    width: 100%;
+    height: 100%;
+    transform: none;
+    border: 0;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.single-service .icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    border-radius: 5px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s;
+}
+
+.single-service:hover .icon {
+    background-color: #cfe0f7;
+    color: #000000;
+}
+
+.single-service .title {
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 23px;
+    transition: color .3s;
+}
+
+.single-service:hover .title {
+    color: #fff;
+}
+
+.single-service .description {
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: color .3s;
+}
+
+.single-service:hover .description {
+    color: #fff;
+}
+
+.btn {
+    font-size: 18px;
+    color: #202020;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid #202020;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: color .3s, background-color .3s, border-color .3s;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #202020;
+    border-color: #202020;
+}
+
+.divider {
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+.add-med-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.account-info {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.table-bordered {
+    background-color: #fff;
+    box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+}
+
+.wait {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}
+/* General Layout */
+.assign-roles-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wait {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+/* Home Button */
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #2980b9;
+}
+
+/* Role Section */
+.role-section {
+    margin: 30px 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h4 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.role-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+.btn-register {
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-register:hover {
+    background-color: #219150;
+}
+
+/* Table */
+.role-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.role-table th, .role-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.role-table th {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+.role-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.role-table tr:hover {
+    background-color: #f1f1f1;
+}
+.container {
+    padding: 20px;
+    background-color: #f4f6f9;
+    border-radius: 8px;
+}
+
+.account-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-home:hover {
+    background-color: #c0392b;
+}
+
+.flow-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.table {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #333;
+}
+
+.step-section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.role-form {
+    display: flex;
+    gap: 10px;
+}
+
+.form-control {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-action {
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-action:hover {
+    background-color: #27ae60;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
